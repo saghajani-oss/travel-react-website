@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
-import Navbar from "../components/Navbar"
+import Navbar from "../components/Navbar";
+import Destination from "../components/Destination";
 import HomeImg from "../images/12.jpg";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
           btnClassName="show"
           btnText="Travel Plan"
         />
+        <Destination />
       </div>
     );
 }
