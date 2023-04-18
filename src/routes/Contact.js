@@ -1,9 +1,18 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import ContactImg from "../images/2.jpg"
 
 export default function Contact() {
-    return(
-        <div className="contact">
-            <h1>This is contact page.</h1>
-        </div>
-    )
+    return (
+      <div className="contact">
+        <Navbar />
+        <Hero
+          className="hero-mid"
+          img={ContactImg}
+          title="Contact"
+          btnClassName="hidden"
+        />
+      </div>
+    );
   }

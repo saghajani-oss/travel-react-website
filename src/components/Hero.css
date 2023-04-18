@@ -80,31 +80,31 @@ img {
 @media (max-width: 1200px) {
     
 .hero-content h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 .hero-content p {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 
-.hero-content a {
-    padding: 0.5rem 1rem;
-    font-size: 0.6rem;
+.hero-content .show {
+    padding: 1rem 1.3rem;
+    font-size: 1.1rem;
 }
 }
 
 @media (max-width: 900px) {
     
 .hero-content h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .hero-content p {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
-.hero-content a {
-    padding: 0.5rem 0.8rem;
-    font-size: 0.6rem;
+.hero-content .show {
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
 }
 }

@@ -1,9 +1,18 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import SeviceImg from "../images/1.jpg"
 
-export default function Sevices() {
-    return(
-        <div className="services">
-            <h1>This is services page.</h1>
-        </div>
-    )
+export default function Sevice() {
+    return (
+      <div className="service">
+        <Navbar />
+        <Hero
+          className="hero-mid"
+          img={SeviceImg}
+          title="Service"
+          btnClassName="hidden"
+        />
+      </div>
+    );
 }
