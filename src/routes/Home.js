@@ -3,6 +3,9 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Destination from "../components/Destination";
 import HomeImg from "../images/12.jpg";
+import Trips from "../components/Trips";
+import Footer from "../components/Footer";
+
 
 export default function Home() {
     return (
@@ -18,6 +21,8 @@ export default function Home() {
           btnText="Travel Plan"
         />
         <Destination />
+        <Trips />
+        <Footer />
       </div>
     );
 }

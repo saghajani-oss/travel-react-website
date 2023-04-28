@@ -1,55 +1,94 @@
 .destination {
-    margin-top: 1.5rem;
-    padding: 4rem 6rem;
+  margin-top: 1.5rem;
+  padding: 4rem 6rem;
 }
 
 .destination h1 {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 800;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
 }
 
 .destination p {
-    text-align: center;
-    margin-top: 0.5rem;
+  text-align: center;
+  margin-top: 0.5rem;
 }
 
 .first-des {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.first-des-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8rem;
 }
 
 .des-text {
-    width: 45%;
+  width: 45%;
 }
 
 .des-text h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .des-text p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .des-image {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
 .des-image img {
-    width: 45%;
-    height: 350px;
-    border-radius: 10px;
-    object-fit: cover;
+  width: 45%;
+  height: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .des-image img:nth-child(2) {
-    position: absolute;
-    top: -15px;
-    right: 0;
+  position: absolute;
+  top: -10%;
+  right: 0;
+}
+
+@media (max-width: 1000px) {
+  .destination {
+    padding: 4rem 2rem;
+  }
+
+  .first-des {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.first-des-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 6rem;
+}
+
+.des-text {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.des-image {
+  width: 100%;
+}
+
+.des-image img {
+  height: 250px;
+}
 }
