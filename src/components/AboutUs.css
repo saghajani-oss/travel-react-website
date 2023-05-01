@@ -1,0 +1,18 @@
+.about-us {
+    padding: 4rem 6rem;
+}
+
+.about-us h1{
+    margin-bottom: 0.8rem;
+}
+
+.about-us p {
+    margin-bottom: 2.5rem;
+    text-align: justify;
+}
+
+@media (max-width: 850px) {
+    .about-us {
+    padding: 4rem 2rem;
+}
+}

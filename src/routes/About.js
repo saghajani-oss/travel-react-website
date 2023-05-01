@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import AboutImg from "../images/night.jpg";
 import Footer from "../components/Footer";
+import AboutUs from "../components/AboutUs";
 
 export default function About() {
   return (
@@ -14,6 +15,7 @@ export default function About() {
         title="About"
         btnClassName="hidden"
       />
+      <AboutUs />
       <Footer />
     </div>
   );
